@@ -1,0 +1,26 @@
+.book-form .add-book-button {
+    background-color: #b0b0b0;       
+    color: #0f0e0e;                     
+    padding: 10px 30px;              
+    font-size: 1rem;                 
+    border: none;                    
+    border-radius: 5px;              
+    cursor: pointer;                 
+    transition: background-color 0.3s, transform 0.1s; 
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .book-form .add-book-button:hover {
+    background-color: #8c8c8c;       
+  }
+  
+  .add-book-button:active {
+    transform: scale(0.98);          
+    background-color: #5e5e5e;       
+  }
+
+  .book-form .book-input {
+    margin-left: 8px;
+  }
+  

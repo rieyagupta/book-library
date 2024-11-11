@@ -1,38 +1,64 @@
-.App {
-  text-align: center;
+
+
+.book-lib {
+  margin: 80px 64px 120px;
+  background: var(--tertiary-white, #FFF);
+  padding: 32px;
+  flex-basis: 40.76%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.book-lib__title{
+    color: #434649;
+    font-family: "Kepler Std";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0.64px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* .lib__tabs {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  border-bottom: 1px solid var(--tertiary-light-grey, #F2F2F2);
+  gap: 24px;
+  margin: unset;
+  padding: unset;
+}
+
+.lib__tab {
+  cursor: pointer;
+  color: var(--Tertiary-Deep-Grey, #767879);
+  text-decoration: none;
+  font-family: "Fira Sans";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  white-space: pre-wrap;
+  position: relative;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-bottom: 14px;
+  width: 210px;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: end;
+  overflow-wrap: break-word;
 }
 
-.App-link {
-  color: #61dafb;
+.lib__tab::after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  border-bottom: 1px solid #767879;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.lib__tab.active {
+  color: var(--Primary-Main, #18171A);
 }
+
+.lib__tab.active::after {
+  border-bottom: 2px solid #18171A;
+} */

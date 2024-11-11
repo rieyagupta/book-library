@@ -1,0 +1,43 @@
+.lib__book-detail-cards {
+    display: block;
+    overflow: scroll;
+    overflow-x: hidden;
+    margin-top: 48px;
+    max-height: 502px;
+  }
+
+  .lib__book-card {
+    margin-right: 24px;
+    margin-bottom: 48px;
+    flex-basis: 50%;
+  }
+
+  .book-card-header{
+    font-size: 18px;
+    padding: 8px 24px;
+    background: var(--Gradients-Gradient-1, linear-gradient(60deg, #C9D3D7 3.71%, #EBEBEB 104.51%));
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .book-lib .bookmark-button{
+    background: none; 
+    border: none;
+    padding: 0;
+  }
+
+  .bookmark-icon{
+    cursor: pointer;
+  }
+
+  .book-lib-sub{
+    
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 24px 24px 32px;
+      background: var(--Tertiary-Light-grey, #F2F2F2);
+      align-items: flex-end;
+      align-self: stretch;
+    
+  }

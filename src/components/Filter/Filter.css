@@ -1,0 +1,45 @@
+.lib__tabs {
+    display: flex;
+    border-bottom: 1px solid var(--tertiary-light-grey, #F2F2F2);
+    gap: 24px;
+    margin: unset;
+    padding: unset;
+  }
+  
+.lib__tab {
+    cursor: pointer;
+    color: var(--Tertiary-Deep-Grey, #767879);
+    text-decoration: none;
+    font-family: "Fira Sans";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    white-space: pre-wrap;
+    position: relative;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 14px;
+    width: 210px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    overflow-wrap: break-word;
+  }
+  
+ .lib__tab::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border-bottom: 1px solid #767879;
+  }
+  
+ .lib__tab.active {
+    color: var(--Primary-Main, #18171A);
+  }
+  
+ .lib__tab.active::after {
+    border-bottom: 2px solid #18171A;
+  }
